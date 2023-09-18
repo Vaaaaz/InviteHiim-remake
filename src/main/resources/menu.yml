@@ -1,0 +1,27 @@
+# Configurações dos Menus (GUI) #
+
+config-menu:
+  opcoes:
+    titulo: Central de convites
+    tamanho: 3 # linhas
+  itens:
+    perfil:
+      nome: '&bMeu Perfil'
+      slot: 12
+      material: HEAD->3fa3f6f9f50ac67db98b68a15fd05901528836a18c70fb392aa89f4b6083766b # caso queria usar heads personalizdas utilize 'HEAD->url'
+      descricao:
+        - ''
+        - ' &fNick: &b{player}'
+        - ' &fPessoas convidadas: &b{convites}'
+        - ''
+        - ' &fVocê foi convidado por: &b{convidado}'
+        - ''
+    recompensas:
+      nome: '&bRecompensas'
+      slot: 14
+      material: HEAD->68bdc7a1d6cff76a9255652d3165532285acc3a9d1c0f12f39ca007769a7ea14 # caso queria usar heads personalizdas utilize 'HEAD->url'
+      descricao:
+        - ''
+        - ' &fVocê precisa de {proximo} convites para'
+        - ' &fresgatar a próxima recompensa!'
+        - ''

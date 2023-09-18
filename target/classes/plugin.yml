@@ -1,0 +1,22 @@
+name: invite-remake
+version: '1.0-SNAPSHOT'
+main: me.vaaz.invitehim.ReferenceBootstrap
+api-version: '1.20'
+
+authors:
+  - vaaaz
+  - syncwrld
+
+commands:
+  ref:
+    aliases:
+      - reference
+  convites:
+    aliases:
+      - invites
+  codigo:
+    aliases:
+      - code
+  mudarcodigo:
+    aliases:
+      - changecode

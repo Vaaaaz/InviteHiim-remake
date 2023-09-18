@@ -1,0 +1,32 @@
+# Recompensas #
+
+recompensas:
+  primeira:
+   titulo: '&b#1'
+   prioridade: 1 # quanto maior melhor
+   # deixe as prioridades em ordem, por exemplo: 1, 2, 3 e assim por diante
+   convites: 1 # quantidade de convites necessarios para resgatar
+   comandos:
+     - 'give %player% minecraft:diamond 16'
+     - 'give %player% minecraft:gold_ingot 16'
+   chat:
+     - ''
+     - '&6&lRECOMPENSAS'
+     - ' &eVocê ganhou uma nova recompensa!'
+     - ' &8» &e16x Diamantes'
+     - ' &8» &e16x Ouros'
+     - ''
+  segunda:
+   titulo: '&b#2'
+   prioridade: 2 # sempre em ordem
+   convites: 3
+   comandos:
+     - 'give %player% minecraft:diamond 32'
+     - 'give %player% minecraft:gold_ingot 32'
+   chat:
+     - ''
+     - '&6&lRECOMPENSAS'
+     - ' &eVocê ganhou uma nova recompensa!'
+     - ' &8» &e32x Diamantes'
+     - ' &8» &e32x Ouros'
+     - ''

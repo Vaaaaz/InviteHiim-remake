@@ -1,0 +1,12 @@
+# Configuração das mensagens #
+
+changecode: '&fVocê já está alterando seu &bcódigo de convite&f, digite apenas o seu &anovo código&f.'
+newcode: '\n&aDigite seu novo código de convite:\n \n'
+invalid: '&cSeu código de convite é inválido ou não existe.'
+inviteMessage: 'Salve! Meu nome é {playerName}, to te convidando para jogar aqui no servidor! Usa meu código de convite e me ajude por favor: {playerCode}'
+yourCode: '&eSeu código de convite é &b{playerCode} &e(Clique para copiar)'
+alreadyUsed: '&cVocê já usou o código de referência de {referrerCode}'
+notExist: '&cO código que você informou não é de nenhum jogador.'
+codeUsed: '&b{playerName} &fusou seu código de referência. &e(Clique para ver seu progresso)'
+title-code-used: '&e&lCÓDIGO<nl>{player} usou seu código de referência"'
+title-code-used-self: '&e&lCÓDIGO<nl>&fVocê usou o código de referência de {player}'
